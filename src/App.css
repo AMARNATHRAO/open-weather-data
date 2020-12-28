@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+body {
+  background: radial-gradient(
+      circle,
+      rgba(255, 63, 233, 0.5) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    linear-gradient(147.46deg, #02cca2 0%, rgba(0, 59, 255, 0.8) 100%);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +35,46 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.table-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.parent-table {
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.header {
+  height: 58px;
+  width: 100%;
+  background-color: #374251;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+}
+
+.table-header {
+  background-color: #f4f6f8;
+  color: rgba(7, 16, 26, 0.5);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+}
+
+.company-logo {
+  background: url(./Images//mobiquity-logo-white.svg);
+  font-size: 16px;
+  font-weight: 500;
 }
 
 @keyframes App-logo-spin {
